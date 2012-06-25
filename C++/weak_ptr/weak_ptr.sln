@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "weak_ptr", "weak_ptr\weak_ptr.vcxproj", "{3567D4D4-49A9-4034-B687-9F2A31A46C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3567D4D4-49A9-4034-B687-9F2A31A46C21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3567D4D4-49A9-4034-B687-9F2A31A46C21}.Debug|Win32.Build.0 = Debug|Win32
+		{3567D4D4-49A9-4034-B687-9F2A31A46C21}.Release|Win32.ActiveCfg = Release|Win32
+		{3567D4D4-49A9-4034-B687-9F2A31A46C21}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

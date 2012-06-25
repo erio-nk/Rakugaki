@@ -1,0 +1,44 @@
+<html>
+<header>
+<!--
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+//-->
+
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.21.custom.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+
+<script type="text/javascript">
+<!--
+$(function(){
+	$('#dlg').dialog({
+		autoOpen: false,
+		title: 'jQuery Dialog Demo',
+		closeOnEscapse: false,
+		modal: true,
+//		buttons: {
+//			"OK": function(){
+//				$(this).dialog('close');
+//			}
+//		}
+	});
+	
+	$('#btn').click(function(){
+		$('#dlg').dialog('open');
+	});
+});
+
+</script>
+</header>
+<body>
+<button id="btn">‚Ù‚°</button>
+<div id="dlg">
+<form action="test.html" method="POST">
+Hello, jQuery UI Dialog!
+<input type="submit" value="yes">
+</form>
+</div>
+
+</body>
+</html>
